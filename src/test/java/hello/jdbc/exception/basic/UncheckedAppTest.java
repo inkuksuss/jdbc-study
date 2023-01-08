@@ -22,7 +22,7 @@ public class UncheckedAppTest {
         try {
             controller.request();
         } catch (Exception e) {
-            log.info("ex",e);
+            log.info("ex", e);
         }
     }
 
